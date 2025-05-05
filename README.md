@@ -25,10 +25,10 @@ Authors:
 - Models: SuperKirbylover
 - Audio mixing: ZAIDORZ, SuperKirbylover
 - Voice actors:
-- - Peppino: DevilRedd
-- - The Noise: ZAIDORZ
-- - Gustavo: Skullduggery918
-- - Noisette: SuperKirbylover
+	- Peppino: DevilRedd
+	- The Noise: ZAIDORZ
+	- Gustavo: Skullduggery918
+	- Noisette: SuperKirbylover
 
 ## char-select-maurice
 Technically, this was mainly 123's doing. I just helped maintain it over time... That's why the blend file is just called *marice.blend*. I never bothered to fix it.
@@ -53,8 +53,8 @@ Authors:
 - Models: SuperKirbylover
 - Audio mixing: ZAIDORZ
 - Voice actors:
-- - Sans: LiterallyNoOne
-- - Papyrus: Audiospawn Sudzy Bubbles
+	- Sans: LiterallyNoOne
+	- Papyrus: Audiospawn Sudzy Bubbles
 
 ## char-select-BlastPack
 Annie re-uses Anton's cap models here.
@@ -64,8 +64,8 @@ Authors:
 - Models: SuperKirbylover
 - Audio mixing: ZAIDORZ
 - Voice actors:
-- - Anton: Shawnster
-- - Annie: Abicadabr
+	- Anton: Shawnster
+	- Annie: Abicadabr
 
 ## char-select-H
 This was my first mod that I flat up didn't use any textures for the player model. Which, well, makes sense. It's just H.
