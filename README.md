@@ -13,13 +13,12 @@ This is where HUD textures go. Nothing else to really say.
 ## blend
 This never comes in the release files, because these take up a lot of space. Not only that, but these are the raw model files accompanied by their textures!
 The template files automatically pack most textures into the blend file. I found this to be annoying when having to change textures constantly, since I usually did them in Aseprite. I changed some of them to just reference them instead of compressing them into a file, so, hopefully that's not too much of an issue.
-Noisette re-uses Noise's eyes and mouth textures.
 
 # Packs
 In order from oldest to newest, here's a bit about each!
 ## char-select-PTCharacters
 This was the first Character Select pack I've ever created, so it's a little messy in its source files. Initially, the source model files were put together by my friend Quotation / 123a, as he was the person who introduced me to modding SM64. I've done my best over time to clean it up.
-Originally, Noise was to equip his jetpack for the wing cap. However, for thematic purposes, I stuck with just giving him the wing cap. That's why his jetpack texture is still in there.
+Originally, Noise was to equip his jetpack for the wing cap. However, for thematic purposes, I stuck with just giving him the wing cap. That's why his jetpack texture is still in there. Noisette re-uses Noise's eyes and mouth textures.
 
 Authors:
 - Models: SuperKirbylover
