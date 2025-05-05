@@ -1,0 +1,16 @@
+extern const GeoLayout anton_skl_cap_normal_Normal_Cap_State_Switch_opt1[];
+extern const GeoLayout anton_skl_cap_normal_Normal_Cap_State_Switch_opt2[];
+extern const GeoLayout anton_skl_cap_normal_Normal_Cap_State_Switch_opt3[];
+extern const GeoLayout anton_skl_cap_normal_geo[];
+extern Lights1 anton_skl_cap_normal_Cap__CAP__lights;
+extern Lights1 anton_skl_cap_normal_Metal__METAL__lights;
+extern u8 anton_skl_cap_normal_Metal_Shade_rgba16_rgba16[];
+extern u8 anton_skl_cap_normal_Metal_Light_rgba16_rgba16[];
+extern Vtx anton_skl_cap_normal_Normal_Cap_DL_mesh_layer_1_vtx_0[64];
+extern Gfx anton_skl_cap_normal_Normal_Cap_DL_mesh_layer_1_tri_0[];
+extern Gfx mat_anton_skl_cap_normal_Cap__CAP_[];
+extern Gfx mat_anton_skl_cap_normal_Metal__METAL_[];
+extern Gfx mat_revert_anton_skl_cap_normal_Metal__METAL_[];
+extern Gfx anton_skl_cap_normal_Normal_Cap_DL_mesh_layer_1[];
+extern Gfx anton_skl_cap_normal_Normal_Cap_DL_mesh_layer_1_mat_override_Metal__METAL__0[];
+extern Gfx anton_skl_cap_normal_material_revert_render_settings[];

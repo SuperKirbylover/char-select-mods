@@ -1,0 +1,490 @@
+Lights1 sans_cap_wing_Jacket__CAP__lights = gdSPDefLights1(
+	0x7F, 0x7F, 0x7F,
+	0xFF, 0xFF, 0xFF, 0x49, 0x49, 0x49);
+
+Lights1 sans_cap_wing_Hood__GLOVES__lights = gdSPDefLights1(
+	0x7F, 0x7F, 0x7F,
+	0xFF, 0xFF, 0xFF, 0x49, 0x49, 0x49);
+
+Lights1 sans_cap_wing_Back_Jacket__CAP__lights = gdSPDefLights1(
+	0x7F, 0x7F, 0x7F,
+	0xFF, 0xFF, 0xFF, 0x49, 0x49, 0x49);
+
+Lights1 sans_cap_wing_Metal__METAL__lights = gdSPDefLights1(
+	0x7F, 0x7F, 0x7F,
+	0xFF, 0xFF, 0xFF, 0x49, 0x49, 0x49);
+
+Gfx sans_cap_wing_Metal_Shade_rgba16_rgba16_aligner[] = {gsSPEndDisplayList()};
+u8 sans_cap_wing_Metal_Shade_rgba16_rgba16[] = {
+	#include "actors/sans/Metal_Shade.rgba16.inc.c"
+};
+
+Gfx sans_cap_wing_Metal_Light_rgba16_rgba16_aligner[] = {gsSPEndDisplayList()};
+u8 sans_cap_wing_Metal_Light_rgba16_rgba16[] = {
+	#include "actors/sans/Metal_Light.rgba16.inc.c"
+};
+
+Gfx sans_cap_wing_wing_2_rgba16_aligner[] = {gsSPEndDisplayList()};
+u8 sans_cap_wing_wing_2_rgba16[] = {
+	#include "actors/sans/wing_2.rgba16.inc.c"
+};
+
+Gfx sans_cap_wing_wing1_rgba16_aligner[] = {gsSPEndDisplayList()};
+u8 sans_cap_wing_wing1_rgba16[] = {
+	#include "actors/sans/wing1.rgba16.inc.c"
+};
+
+Vtx sans_cap_wing_Wing_Cap_mesh_layer_1_vtx_0[88] = {
+	{{ {103, 1, -2}, 0, {189, -16}, {11, 133, 31, 255} }},
+	{{ {85, 2, -50}, 0, {-16, -16}, {8, 129, 0, 255} }},
+	{{ {138, 0, -17}, 0, {-16, 496}, {25, 132, 242, 255} }},
+	{{ {-103, 1, -2}, 0, {189, -16}, {245, 133, 31, 255} }},
+	{{ {-138, 0, -17}, 0, {-16, 496}, {231, 132, 242, 255} }},
+	{{ {-85, 2, -50}, 0, {-16, -16}, {248, 129, 0, 255} }},
+	{{ {91, 41, -6}, 0, {394, -16}, {44, 114, 35, 255} }},
+	{{ {106, 0, 119}, 0, {715, 496}, {81, 204, 83, 255} }},
+	{{ {103, 1, -2}, 0, {189, 496}, {11, 133, 31, 255} }},
+	{{ {129, 35, -12}, 0, {394, 496}, {0, 123, 32, 255} }},
+	{{ {138, 0, -17}, 0, {-16, -16}, {25, 132, 242, 255} }},
+	{{ {151, 0, 89}, 0, {-16, 419}, {4, 131, 20, 255} }},
+	{{ {122, 13, 91}, 0, {189, 419}, {135, 246, 37, 255} }},
+	{{ {139, 26, 94}, 0, {394, 419}, {217, 121, 7, 255} }},
+	{{ {129, 35, -12}, 0, {394, -16}, {0, 123, 32, 255} }},
+	{{ {141, 34, -38}, 0, {598, -16}, {45, 119, 2, 255} }},
+	{{ {172, 26, 90}, 0, {598, 419}, {46, 118, 10, 255} }},
+	{{ {170, 18, -50}, 0, {803, -16}, {116, 245, 207, 255} }},
+	{{ {190, 13, 80}, 0, {803, 419}, {125, 237, 12, 255} }},
+	{{ {151, 0, 89}, 0, {1008, 419}, {4, 131, 20, 255} }},
+	{{ {138, 0, -17}, 0, {1008, -16}, {25, 132, 242, 255} }},
+	{{ {91, 41, -6}, 0, {715, 496}, {44, 114, 35, 255} }},
+	{{ {93, 37, 115}, 0, {631, 496}, {56, 75, 86, 255} }},
+	{{ {92, 20, 109}, 0, {715, 496}, {221, 35, 117, 255} }},
+	{{ {31, 16, 112}, 0, {631, 496}, {160, 234, 81, 255} }},
+	{{ {32, 32, 116}, 0, {546, 496}, {184, 58, 88, 255} }},
+	{{ {91, 41, -6}, 0, {631, 496}, {44, 114, 35, 255} }},
+	{{ {34, 49, -42}, 0, {546, 238}, {173, 96, 250, 255} }},
+	{{ {108, 49, -85}, 0, {631, 173}, {44, 112, 215, 255} }},
+	{{ {91, 41, -6}, 0, {598, -16}, {44, 114, 35, 255} }},
+	{{ {141, 34, -38}, 0, {598, 496}, {45, 119, 2, 255} }},
+	{{ {108, 49, -85}, 0, {803, -16}, {44, 112, 215, 255} }},
+	{{ {108, 49, -85}, 0, {803, -16}, {44, 112, 215, 255} }},
+	{{ {141, 34, -38}, 0, {598, 496}, {45, 119, 2, 255} }},
+	{{ {170, 18, -50}, 0, {803, 496}, {116, 245, 207, 255} }},
+	{{ {31, 16, 112}, 0, {544, 496}, {160, 234, 81, 255} }},
+	{{ {32, 32, 116}, 0, {546, 496}, {184, 58, 88, 255} }},
+	{{ {34, 49, -42}, 0, {546, 127}, {173, 96, 250, 255} }},
+	{{ {33, 34, -54}, 0, {544, 138}, {137, 31, 224, 255} }},
+	{{ {106, 0, 119}, 0, {862, 496}, {81, 204, 83, 255} }},
+	{{ {92, 20, 109}, 0, {862, 496}, {221, 35, 117, 255} }},
+	{{ {0, 15, 117}, 0, {1008, 496}, {0, 88, 91, 255} }},
+	{{ {0, 0, 119}, 0, {1008, 496}, {0, 172, 95, 255} }},
+	{{ {-106, 0, 119}, 0, {862, 496}, {175, 204, 83, 255} }},
+	{{ {-92, 20, 109}, 0, {862, 496}, {35, 35, 117, 255} }},
+	{{ {-103, 1, -2}, 0, {862, 496}, {245, 133, 31, 255} }},
+	{{ {0, 2, -40}, 0, {1008, 310}, {0, 129, 3, 255} }},
+	{{ {-85, 2, -50}, 0, {862, 310}, {248, 129, 0, 255} }},
+	{{ {103, 1, -2}, 0, {862, 496}, {11, 133, 31, 255} }},
+	{{ {85, 2, -50}, 0, {862, 310}, {8, 129, 0, 255} }},
+	{{ {138, 0, -17}, 0, {-16, 496}, {25, 132, 242, 255} }},
+	{{ {-91, 41, -6}, 0, {394, -16}, {212, 114, 35, 255} }},
+	{{ {-103, 1, -2}, 0, {189, 496}, {245, 133, 31, 255} }},
+	{{ {-106, 0, 119}, 0, {715, 496}, {175, 204, 83, 255} }},
+	{{ {-129, 35, -12}, 0, {394, 496}, {0, 123, 32, 255} }},
+	{{ {-103, 1, -2}, 0, {189, -16}, {245, 133, 31, 255} }},
+	{{ {-151, 0, 89}, 0, {-16, 419}, {252, 131, 20, 255} }},
+	{{ {-138, 0, -17}, 0, {-16, -16}, {231, 132, 242, 255} }},
+	{{ {-122, 13, 91}, 0, {189, 419}, {121, 246, 37, 255} }},
+	{{ {-139, 26, 94}, 0, {394, 419}, {39, 121, 7, 255} }},
+	{{ {-129, 35, -12}, 0, {394, -16}, {0, 123, 32, 255} }},
+	{{ {-141, 34, -38}, 0, {598, -16}, {211, 119, 2, 255} }},
+	{{ {-172, 26, 90}, 0, {598, 419}, {210, 118, 10, 255} }},
+	{{ {-170, 18, -50}, 0, {803, -16}, {140, 245, 207, 255} }},
+	{{ {-170, 18, -50}, 0, {803, -16}, {140, 245, 207, 255} }},
+	{{ {-190, 13, 80}, 0, {803, 419}, {131, 237, 12, 255} }},
+	{{ {-172, 26, 90}, 0, {598, 419}, {210, 118, 10, 255} }},
+	{{ {-151, 0, 89}, 0, {1008, 419}, {252, 131, 20, 255} }},
+	{{ {-138, 0, -17}, 0, {1008, -16}, {231, 132, 242, 255} }},
+	{{ {-91, 41, -6}, 0, {715, 496}, {212, 114, 35, 255} }},
+	{{ {-106, 0, 119}, 0, {715, 496}, {175, 204, 83, 255} }},
+	{{ {-93, 37, 115}, 0, {631, 496}, {200, 75, 86, 255} }},
+	{{ {-92, 20, 109}, 0, {715, 496}, {35, 35, 117, 255} }},
+	{{ {-31, 16, 112}, 0, {631, 496}, {96, 234, 81, 255} }},
+	{{ {-32, 32, 116}, 0, {546, 496}, {72, 58, 88, 255} }},
+	{{ {-91, 41, -6}, 0, {631, 496}, {212, 114, 35, 255} }},
+	{{ {-34, 49, -42}, 0, {546, 238}, {83, 96, 250, 255} }},
+	{{ {-108, 49, -85}, 0, {631, 173}, {212, 112, 215, 255} }},
+	{{ {-91, 41, -6}, 0, {598, -16}, {212, 114, 35, 255} }},
+	{{ {-141, 34, -38}, 0, {598, 496}, {211, 119, 2, 255} }},
+	{{ {-129, 35, -12}, 0, {394, 496}, {0, 123, 32, 255} }},
+	{{ {-108, 49, -85}, 0, {803, -16}, {212, 112, 215, 255} }},
+	{{ {-170, 18, -50}, 0, {803, 496}, {140, 245, 207, 255} }},
+	{{ {-31, 16, 112}, 0, {544, 496}, {96, 234, 81, 255} }},
+	{{ {-34, 49, -42}, 0, {546, 127}, {83, 96, 250, 255} }},
+	{{ {-33, 34, -54}, 0, {544, 138}, {119, 31, 224, 255} }},
+	{{ {-85, 2, -50}, 0, {862, 310}, {248, 129, 0, 255} }},
+	{{ {-138, 0, -17}, 0, {-16, 496}, {231, 132, 242, 255} }},
+};
+
+Gfx sans_cap_wing_Wing_Cap_mesh_layer_1_tri_0[] = {
+	gsSPVertex(sans_cap_wing_Wing_Cap_mesh_layer_1_vtx_0 + 0, 32, 0),
+	gsSP2Triangles(0, 1, 2, 0, 3, 4, 5, 0),
+	gsSP2Triangles(6, 7, 8, 0, 6, 8, 9, 0),
+	gsSP2Triangles(0, 10, 11, 0, 0, 11, 12, 0),
+	gsSP2Triangles(13, 0, 12, 0, 13, 14, 0, 0),
+	gsSP2Triangles(15, 14, 13, 0, 15, 13, 16, 0),
+	gsSP2Triangles(17, 15, 16, 0, 17, 16, 18, 0),
+	gsSP2Triangles(19, 17, 18, 0, 19, 20, 17, 0),
+	gsSP2Triangles(21, 22, 7, 0, 22, 23, 7, 0),
+	gsSP2Triangles(22, 24, 23, 0, 25, 24, 22, 0),
+	gsSP2Triangles(26, 25, 22, 0, 26, 27, 25, 0),
+	gsSP2Triangles(26, 28, 27, 0, 29, 9, 30, 0),
+	gsSP1Triangle(31, 29, 30, 0),
+	gsSPVertex(sans_cap_wing_Wing_Cap_mesh_layer_1_vtx_0 + 32, 32, 0),
+	gsSP2Triangles(0, 1, 2, 0, 3, 4, 5, 0),
+	gsSP2Triangles(6, 3, 5, 0, 7, 8, 9, 0),
+	gsSP2Triangles(7, 9, 10, 0, 11, 10, 9, 0),
+	gsSP2Triangles(11, 9, 12, 0, 13, 10, 11, 0),
+	gsSP2Triangles(14, 10, 13, 0, 14, 13, 15, 0),
+	gsSP2Triangles(14, 16, 10, 0, 14, 17, 16, 0),
+	gsSP2Triangles(16, 7, 10, 0, 2, 18, 17, 0),
+	gsSP2Triangles(19, 20, 21, 0, 19, 22, 20, 0),
+	gsSP2Triangles(23, 24, 25, 0, 23, 26, 24, 0),
+	gsSP2Triangles(27, 26, 23, 0, 27, 23, 28, 0),
+	gsSP2Triangles(29, 27, 28, 0, 29, 30, 27, 0),
+	gsSP1Triangle(31, 30, 29, 0),
+	gsSPVertex(sans_cap_wing_Wing_Cap_mesh_layer_1_vtx_0 + 64, 24, 0),
+	gsSP2Triangles(0, 1, 2, 0, 3, 1, 0, 0),
+	gsSP2Triangles(3, 0, 4, 0, 5, 6, 7, 0),
+	gsSP2Triangles(7, 6, 8, 0, 7, 8, 9, 0),
+	gsSP2Triangles(10, 7, 9, 0, 11, 7, 10, 0),
+	gsSP2Triangles(11, 10, 12, 0, 11, 12, 13, 0),
+	gsSP2Triangles(14, 15, 16, 0, 17, 15, 14, 0),
+	gsSP2Triangles(17, 18, 15, 0, 19, 20, 10, 0),
+	gsSP2Triangles(21, 20, 19, 0, 18, 22, 23, 0),
+	gsSPEndDisplayList(),
+};
+
+Vtx sans_cap_wing_Wing_Cap_mesh_layer_1_vtx_1[78] = {
+	{{ {108, 49, -85}, 0, {716, 174}, {44, 112, 215, 255} }},
+	{{ {88, 36, -115}, 0, {715, 138}, {37, 73, 159, 255} }},
+	{{ {53, 47, -86}, 0, {631, 138}, {231, 121, 225, 255} }},
+	{{ {34, 49, -42}, 0, {546, 127}, {173, 96, 250, 255} }},
+	{{ {53, 47, -86}, 0, {546, -16}, {231, 121, 225, 255} }},
+	{{ {33, 34, -54}, 0, {544, 130}, {137, 31, 224, 255} }},
+	{{ {108, 49, -85}, 0, {631, 173}, {44, 112, 215, 255} }},
+	{{ {53, 47, -86}, 0, {546, 138}, {231, 121, 225, 255} }},
+	{{ {34, 49, -42}, 0, {546, 238}, {173, 96, 250, 255} }},
+	{{ {-108, 49, -85}, 0, {716, 174}, {212, 112, 215, 255} }},
+	{{ {-53, 47, -86}, 0, {631, 138}, {25, 121, 225, 255} }},
+	{{ {-88, 36, -115}, 0, {715, 138}, {219, 73, 159, 255} }},
+	{{ {-34, 49, -42}, 0, {546, 127}, {83, 96, 250, 255} }},
+	{{ {-33, 34, -54}, 0, {544, 130}, {119, 31, 224, 255} }},
+	{{ {-53, 47, -86}, 0, {546, -16}, {25, 121, 225, 255} }},
+	{{ {-108, 49, -85}, 0, {631, 173}, {212, 112, 215, 255} }},
+	{{ {-34, 49, -42}, 0, {546, 238}, {83, 96, 250, 255} }},
+	{{ {-53, 47, -86}, 0, {546, 138}, {25, 121, 225, 255} }},
+	{{ {0, 2, -40}, 0, {1008, 310}, {0, 129, 3, 255} }},
+	{{ {87, 0, -86}, 0, {862, 200}, {24, 133, 238, 255} }},
+	{{ {85, 2, -50}, 0, {862, 310}, {8, 129, 0, 255} }},
+	{{ {0, -1, -86}, 0, {1008, 200}, {0, 129, 3, 255} }},
+	{{ {-87, 0, -86}, 0, {862, 200}, {232, 133, 238, 255} }},
+	{{ {-85, 2, -50}, 0, {862, 310}, {248, 129, 0, 255} }},
+	{{ {87, 0, -86}, 0, {862, 138}, {24, 133, 238, 255} }},
+	{{ {170, 18, -50}, 0, {803, 496}, {116, 245, 207, 255} }},
+	{{ {60, 10, -137}, 0, {862, 138}, {26, 236, 133, 255} }},
+	{{ {0, 0, -142}, 0, {1008, 138}, {0, 213, 136, 255} }},
+	{{ {0, -1, -86}, 0, {1008, 138}, {0, 129, 3, 255} }},
+	{{ {-87, 0, -86}, 0, {862, 138}, {232, 133, 238, 255} }},
+	{{ {-60, 10, -137}, 0, {862, 138}, {230, 236, 133, 255} }},
+	{{ {-170, 18, -50}, 0, {803, 496}, {140, 245, 207, 255} }},
+	{{ {-88, 36, -115}, 0, {715, 138}, {219, 73, 159, 255} }},
+	{{ {-53, 47, -86}, 0, {862, 138}, {25, 121, 225, 255} }},
+	{{ {-60, 10, -137}, 0, {862, 138}, {230, 236, 133, 255} }},
+	{{ {0, 0, -142}, 0, {1008, 138}, {0, 213, 136, 255} }},
+	{{ {0, 28, -104}, 0, {1008, 138}, {0, 118, 209, 255} }},
+	{{ {53, 47, -86}, 0, {862, 138}, {231, 121, 225, 255} }},
+	{{ {60, 10, -137}, 0, {862, 138}, {26, 236, 133, 255} }},
+	{{ {88, 36, -115}, 0, {715, 138}, {37, 73, 159, 255} }},
+	{{ {170, 18, -50}, 0, {803, 496}, {116, 245, 207, 255} }},
+	{{ {108, 49, -85}, 0, {803, -16}, {44, 112, 215, 255} }},
+	{{ {-170, 18, -50}, 0, {803, 496}, {140, 245, 207, 255} }},
+	{{ {-108, 49, -85}, 0, {803, -16}, {212, 112, 215, 255} }},
+	{{ {185, 12, 88}, 0, {803, 496}, {86, 200, 75, 255} }},
+	{{ {170, 25, 96}, 0, {598, 496}, {44, 73, 94, 255} }},
+	{{ {149, 2, 95}, 0, {803, 496}, {254, 163, 86, 255} }},
+	{{ {190, 13, 80}, 0, {803, 419}, {125, 237, 12, 255} }},
+	{{ {149, 2, 95}, 0, {1008, 496}, {254, 163, 86, 255} }},
+	{{ {151, 0, 89}, 0, {1008, 419}, {4, 131, 20, 255} }},
+	{{ {172, 26, 90}, 0, {598, 419}, {46, 118, 10, 255} }},
+	{{ {139, 26, 94}, 0, {394, 419}, {217, 121, 7, 255} }},
+	{{ {138, 25, 100}, 0, {394, 496}, {219, 77, 94, 255} }},
+	{{ {122, 13, 91}, 0, {189, 419}, {135, 246, 37, 255} }},
+	{{ {125, 12, 95}, 0, {189, 496}, {172, 204, 80, 255} }},
+	{{ {149, 2, 95}, 0, {-16, 496}, {254, 163, 86, 255} }},
+	{{ {151, 0, 89}, 0, {-16, 419}, {4, 131, 20, 255} }},
+	{{ {149, 2, 95}, 0, {394, 496}, {254, 163, 86, 255} }},
+	{{ {149, 2, 95}, 0, {598, 496}, {254, 163, 86, 255} }},
+	{{ {-185, 12, 88}, 0, {803, 496}, {170, 200, 75, 255} }},
+	{{ {-149, 2, 95}, 0, {803, 496}, {2, 163, 86, 255} }},
+	{{ {-170, 25, 96}, 0, {598, 496}, {212, 73, 94, 255} }},
+	{{ {-190, 13, 80}, 0, {803, 419}, {131, 237, 12, 255} }},
+	{{ {-172, 26, 90}, 0, {598, 419}, {210, 118, 10, 255} }},
+	{{ {-170, 25, 96}, 0, {598, 496}, {212, 73, 94, 255} }},
+	{{ {-139, 26, 94}, 0, {394, 419}, {39, 121, 7, 255} }},
+	{{ {-172, 26, 90}, 0, {598, 419}, {210, 118, 10, 255} }},
+	{{ {-138, 25, 100}, 0, {394, 496}, {37, 77, 94, 255} }},
+	{{ {-149, 2, 95}, 0, {598, 496}, {2, 163, 86, 255} }},
+	{{ {-122, 13, 91}, 0, {189, 419}, {121, 246, 37, 255} }},
+	{{ {-125, 12, 95}, 0, {189, 496}, {84, 204, 80, 255} }},
+	{{ {-149, 2, 95}, 0, {394, 496}, {2, 163, 86, 255} }},
+	{{ {-149, 2, 95}, 0, {-16, 496}, {2, 163, 86, 255} }},
+	{{ {-151, 0, 89}, 0, {-16, 419}, {252, 131, 20, 255} }},
+	{{ {-149, 2, 95}, 0, {1008, 496}, {2, 163, 86, 255} }},
+	{{ {-185, 12, 88}, 0, {803, 496}, {170, 200, 75, 255} }},
+	{{ {-190, 13, 80}, 0, {803, 419}, {131, 237, 12, 255} }},
+	{{ {-151, 0, 89}, 0, {1008, 419}, {252, 131, 20, 255} }},
+};
+
+Gfx sans_cap_wing_Wing_Cap_mesh_layer_1_tri_1[] = {
+	gsSPVertex(sans_cap_wing_Wing_Cap_mesh_layer_1_vtx_1 + 0, 32, 0),
+	gsSP2Triangles(0, 1, 2, 0, 3, 4, 5, 0),
+	gsSP2Triangles(6, 7, 8, 0, 9, 10, 11, 0),
+	gsSP2Triangles(12, 13, 14, 0, 15, 16, 17, 0),
+	gsSP2Triangles(18, 19, 20, 0, 18, 21, 19, 0),
+	gsSP2Triangles(18, 22, 21, 0, 18, 23, 22, 0),
+	gsSP2Triangles(20, 24, 25, 0, 24, 26, 25, 0),
+	gsSP2Triangles(24, 27, 26, 0, 24, 28, 27, 0),
+	gsSP2Triangles(29, 27, 28, 0, 29, 30, 27, 0),
+	gsSP2Triangles(29, 31, 30, 0, 23, 31, 29, 0),
+	gsSP1Triangle(11, 30, 31, 0),
+	gsSPVertex(sans_cap_wing_Wing_Cap_mesh_layer_1_vtx_1 + 32, 32, 0),
+	gsSP2Triangles(0, 1, 2, 0, 3, 2, 1, 0),
+	gsSP2Triangles(3, 1, 4, 0, 3, 4, 5, 0),
+	gsSP2Triangles(3, 5, 6, 0, 7, 6, 5, 0),
+	gsSP2Triangles(7, 8, 6, 0, 7, 9, 8, 0),
+	gsSP2Triangles(0, 10, 11, 0, 12, 13, 14, 0),
+	gsSP2Triangles(15, 13, 12, 0, 16, 15, 12, 0),
+	gsSP2Triangles(16, 17, 15, 0, 15, 18, 13, 0),
+	gsSP2Triangles(13, 18, 19, 0, 13, 19, 20, 0),
+	gsSP2Triangles(20, 19, 21, 0, 20, 21, 22, 0),
+	gsSP2Triangles(21, 23, 22, 0, 21, 24, 23, 0),
+	gsSP2Triangles(20, 22, 25, 0, 13, 20, 26, 0),
+	gsSP2Triangles(27, 28, 29, 0, 30, 27, 29, 0),
+	gsSP1Triangle(30, 29, 31, 0),
+	gsSPVertex(sans_cap_wing_Wing_Cap_mesh_layer_1_vtx_1 + 64, 14, 0),
+	gsSP2Triangles(0, 1, 2, 0, 0, 3, 1, 0),
+	gsSP2Triangles(0, 4, 3, 0, 3, 5, 1, 0),
+	gsSP2Triangles(3, 6, 5, 0, 3, 7, 6, 0),
+	gsSP2Triangles(5, 6, 8, 0, 5, 8, 9, 0),
+	gsSP2Triangles(10, 11, 12, 0, 10, 12, 13, 0),
+	gsSPEndDisplayList(),
+};
+
+Vtx sans_cap_wing_Wing_Cap_mesh_layer_1_vtx_2[6] = {
+	{{ {0, 15, 117}, 0, {-16, 496}, {0, 88, 91, 255} }},
+	{{ {92, 20, 109}, 0, {862, 496}, {221, 35, 117, 255} }},
+	{{ {53, 47, -86}, 0, {862, 138}, {231, 121, 225, 255} }},
+	{{ {0, 28, -104}, 0, {-16, 138}, {0, 118, 209, 255} }},
+	{{ {-53, 47, -86}, 0, {862, 138}, {25, 121, 225, 255} }},
+	{{ {-92, 20, 109}, 0, {862, 496}, {35, 35, 117, 255} }},
+};
+
+Gfx sans_cap_wing_Wing_Cap_mesh_layer_1_tri_2[] = {
+	gsSPVertex(sans_cap_wing_Wing_Cap_mesh_layer_1_vtx_2 + 0, 6, 0),
+	gsSP2Triangles(0, 1, 2, 0, 0, 2, 3, 0),
+	gsSP2Triangles(0, 3, 4, 0, 0, 4, 5, 0),
+	gsSPEndDisplayList(),
+};
+
+Vtx sans_cap_wing_Wings_mesh_layer_4_vtx_0[8] = {
+	{{ {-175, -36, -197}, 0, {1008, 2032}, {166, 237, 88, 255} }},
+	{{ {-117, -13, -131}, 0, {-16, 2032}, {167, 237, 88, 255} }},
+	{{ {-227, 136, -212}, 0, {1008, -16}, {166, 237, 88, 255} }},
+	{{ {-169, 160, -147}, 0, {-16, -16}, {166, 237, 88, 255} }},
+	{{ {228, 136, -212}, 0, {1008, -16}, {90, 237, 88, 255} }},
+	{{ {117, -13, -131}, 0, {-16, 2032}, {89, 237, 88, 255} }},
+	{{ {176, -36, -197}, 0, {1008, 2032}, {90, 237, 88, 255} }},
+	{{ {169, 160, -147}, 0, {-16, -16}, {90, 237, 88, 255} }},
+};
+
+Gfx sans_cap_wing_Wings_mesh_layer_4_tri_0[] = {
+	gsSPVertex(sans_cap_wing_Wings_mesh_layer_4_vtx_0 + 0, 8, 0),
+	gsSP2Triangles(0, 1, 2, 0, 1, 3, 2, 0),
+	gsSP2Triangles(4, 5, 6, 0, 4, 7, 5, 0),
+	gsSPEndDisplayList(),
+};
+
+Vtx sans_cap_wing_Wings_mesh_layer_4_vtx_1[8] = {
+	{{ {-117, -13, -131}, 0, {1008, 2032}, {167, 237, 88, 255} }},
+	{{ {-58, 10, -68}, 0, {-16, 2032}, {167, 237, 88, 255} }},
+	{{ {-169, 160, -147}, 0, {1008, -16}, {166, 237, 88, 255} }},
+	{{ {-111, 183, -83}, 0, {-16, -16}, {167, 237, 88, 255} }},
+	{{ {169, 160, -147}, 0, {1008, -16}, {90, 237, 88, 255} }},
+	{{ {59, 10, -68}, 0, {-16, 2032}, {89, 237, 88, 255} }},
+	{{ {117, -13, -131}, 0, {1008, 2032}, {89, 237, 88, 255} }},
+	{{ {111, 183, -83}, 0, {-16, -16}, {89, 237, 88, 255} }},
+};
+
+Gfx sans_cap_wing_Wings_mesh_layer_4_tri_1[] = {
+	gsSPVertex(sans_cap_wing_Wings_mesh_layer_4_vtx_1 + 0, 8, 0),
+	gsSP2Triangles(0, 1, 2, 0, 1, 3, 2, 0),
+	gsSP2Triangles(4, 5, 6, 0, 4, 7, 5, 0),
+	gsSPEndDisplayList(),
+};
+
+
+Gfx mat_sans_cap_wing_Jacket__CAP_[] = {
+	gsSPCopyLightsPlayerPart(CAP),
+	gsDPPipeSync(),
+	gsDPSetCombineLERP(0, 0, 0, SHADE, 0, 0, 0, ENVIRONMENT, 0, 0, 0, SHADE, 0, 0, 0, ENVIRONMENT),
+	gsSPTexture(65535, 65535, 0, 0, 1),
+	gsSPEndDisplayList(),
+};
+
+Gfx mat_sans_cap_wing_Hood__GLOVES_[] = {
+	gsSPCopyLightsPlayerPart(GLOVES),
+	gsDPPipeSync(),
+	gsDPSetCombineLERP(0, 0, 0, SHADE, 0, 0, 0, ENVIRONMENT, 0, 0, 0, SHADE, 0, 0, 0, ENVIRONMENT),
+	gsSPTexture(65535, 65535, 0, 0, 1),
+	gsSPEndDisplayList(),
+};
+
+Gfx mat_sans_cap_wing_Back_Jacket__CAP_[] = {
+	gsSPCopyLightsPlayerPart(CAP),
+	gsDPPipeSync(),
+	gsDPSetCombineLERP(SHADE, 0, PRIMITIVE, 0, 0, 0, 0, ENVIRONMENT, SHADE, 0, PRIMITIVE, 0, 0, 0, 0, ENVIRONMENT),
+	gsSPTexture(65535, 65535, 0, 0, 1),
+	gsDPSetPrimColor(0, 0, 115, 115, 115, 255),
+	gsSPEndDisplayList(),
+};
+
+Gfx mat_sans_cap_wing_Metal__METAL_[] = {
+	gsSPGeometryMode(0, G_TEXTURE_GEN),
+	gsSPCopyLightsPlayerPart(CAP),
+	gsDPPipeSync(),
+	gsDPSetCombineLERP(TEXEL0, 0, SHADE, TEXEL1, 0, 0, 0, ENVIRONMENT, TEXEL0, 0, SHADE, TEXEL1, 0, 0, 0, ENVIRONMENT),
+	gsSPTexture(4032, 1984, 0, 0, 1),
+	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, sans_cap_wing_Metal_Shade_rgba16_rgba16),
+	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 0, 0, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
+	gsDPLoadBlock(7, 0, 0, 2047, 128),
+	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b, 16, 0, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 5, 0, G_TX_WRAP | G_TX_NOMIRROR, 6, 0),
+	gsDPSetTileSize(0, 0, 0, 252, 124),
+	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, sans_cap_wing_Metal_Light_rgba16_rgba16),
+	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 0, 512, 6, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
+	gsDPLoadBlock(6, 0, 0, 2047, 128),
+	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b, 16, 512, 1, 0, G_TX_WRAP | G_TX_NOMIRROR, 5, 0, G_TX_WRAP | G_TX_NOMIRROR, 6, 0),
+	gsDPSetTileSize(1, 0, 0, 252, 124),
+	gsSPEndDisplayList(),
+};
+
+Gfx mat_revert_sans_cap_wing_Metal__METAL_[] = {
+	gsSPGeometryMode(G_TEXTURE_GEN, 0),
+	gsDPPipeSync(),
+	gsSPEndDisplayList(),
+};
+
+Gfx mat_sans_cap_wing_Wing_Tip[] = {
+	gsSPGeometryMode(G_CULL_BACK, 0),
+	gsDPPipeSync(),
+	gsDPSetCombineLERP(0, 0, 0, TEXEL0, TEXEL0, 0, ENVIRONMENT, 0, 0, 0, 0, TEXEL0, TEXEL0, 0, ENVIRONMENT, 0),
+	gsSPTexture(65535, 65535, 0, 0, 1),
+	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, sans_cap_wing_wing_2_rgba16),
+	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 0, 0, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
+	gsDPLoadBlock(7, 0, 0, 2047, 256),
+	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b, 8, 0, 0, 0, G_TX_CLAMP | G_TX_NOMIRROR, 6, 0, G_TX_CLAMP | G_TX_NOMIRROR, 5, 0),
+	gsDPSetTileSize(0, 0, 0, 124, 252),
+	gsSPEndDisplayList(),
+};
+
+Gfx mat_revert_sans_cap_wing_Wing_Tip[] = {
+	gsSPGeometryMode(0, G_CULL_BACK),
+	gsDPPipeSync(),
+	gsSPEndDisplayList(),
+};
+
+Gfx mat_sans_cap_wing_Wing_Base[] = {
+	gsSPGeometryMode(G_CULL_BACK, 0),
+	gsDPPipeSync(),
+	gsDPSetCombineLERP(0, 0, 0, TEXEL0, TEXEL0, 0, ENVIRONMENT, 0, 0, 0, 0, TEXEL0, TEXEL0, 0, ENVIRONMENT, 0),
+	gsSPTexture(65535, 65535, 0, 0, 1),
+	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, sans_cap_wing_wing1_rgba16),
+	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 0, 0, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
+	gsDPLoadBlock(7, 0, 0, 2047, 256),
+	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b, 8, 0, 0, 0, G_TX_CLAMP | G_TX_NOMIRROR, 6, 0, G_TX_CLAMP | G_TX_NOMIRROR, 5, 0),
+	gsDPSetTileSize(0, 0, 0, 124, 252),
+	gsSPEndDisplayList(),
+};
+
+Gfx mat_revert_sans_cap_wing_Wing_Base[] = {
+	gsSPGeometryMode(0, G_CULL_BACK),
+	gsDPPipeSync(),
+	gsSPEndDisplayList(),
+};
+
+Gfx sans_cap_wing_Wing_Cap_mesh_layer_1[] = {
+	gsSPDisplayList(mat_sans_cap_wing_Jacket__CAP_),
+	gsSPDisplayList(sans_cap_wing_Wing_Cap_mesh_layer_1_tri_0),
+	gsSPDisplayList(mat_sans_cap_wing_Hood__GLOVES_),
+	gsSPDisplayList(sans_cap_wing_Wing_Cap_mesh_layer_1_tri_1),
+	gsSPDisplayList(mat_sans_cap_wing_Back_Jacket__CAP_),
+	gsSPDisplayList(sans_cap_wing_Wing_Cap_mesh_layer_1_tri_2),
+	gsDPPipeSync(),
+	gsSPSetGeometryMode(G_LIGHTING),
+	gsSPClearGeometryMode(G_TEXTURE_GEN),
+	gsDPSetCombineLERP(0, 0, 0, SHADE, 0, 0, 0, ENVIRONMENT, 0, 0, 0, SHADE, 0, 0, 0, ENVIRONMENT),
+	gsSPTexture(65535, 65535, 0, 0, 0),
+	gsDPSetEnvColor(255, 255, 255, 255),
+	gsDPSetAlphaCompare(G_AC_NONE),
+	gsSPEndDisplayList(),
+};
+
+Gfx sans_cap_wing_Wing_Cap_mesh_layer_1_mat_override_Metal__METAL__0[] = {
+	gsSPDisplayList(mat_sans_cap_wing_Metal__METAL_),
+	gsSPDisplayList(sans_cap_wing_Wing_Cap_mesh_layer_1_tri_0),
+	gsSPDisplayList(sans_cap_wing_Wing_Cap_mesh_layer_1_tri_1),
+	gsSPDisplayList(sans_cap_wing_Wing_Cap_mesh_layer_1_tri_2),
+	gsSPDisplayList(mat_revert_sans_cap_wing_Metal__METAL_),
+	gsDPPipeSync(),
+	gsSPSetGeometryMode(G_LIGHTING),
+	gsSPClearGeometryMode(G_TEXTURE_GEN),
+	gsDPSetCombineLERP(0, 0, 0, SHADE, 0, 0, 0, ENVIRONMENT, 0, 0, 0, SHADE, 0, 0, 0, ENVIRONMENT),
+	gsSPTexture(65535, 65535, 0, 0, 0),
+	gsDPSetEnvColor(255, 255, 255, 255),
+	gsDPSetAlphaCompare(G_AC_NONE),
+	gsSPEndDisplayList(),
+};
+
+Gfx sans_cap_wing_Wings_mesh_layer_4[] = {
+	gsSPDisplayList(mat_sans_cap_wing_Wing_Tip),
+	gsSPDisplayList(sans_cap_wing_Wings_mesh_layer_4_tri_0),
+	gsSPDisplayList(mat_revert_sans_cap_wing_Wing_Tip),
+	gsSPDisplayList(mat_sans_cap_wing_Wing_Base),
+	gsSPDisplayList(sans_cap_wing_Wings_mesh_layer_4_tri_1),
+	gsSPDisplayList(mat_revert_sans_cap_wing_Wing_Base),
+	gsDPPipeSync(),
+	gsSPSetGeometryMode(G_LIGHTING),
+	gsSPClearGeometryMode(G_TEXTURE_GEN),
+	gsDPSetCombineLERP(0, 0, 0, SHADE, 0, 0, 0, ENVIRONMENT, 0, 0, 0, SHADE, 0, 0, 0, ENVIRONMENT),
+	gsSPTexture(65535, 65535, 0, 0, 0),
+	gsDPSetEnvColor(255, 255, 255, 255),
+	gsDPSetAlphaCompare(G_AC_NONE),
+	gsSPEndDisplayList(),
+};
+
+Gfx sans_cap_wing_Wings_mesh_layer_4_mat_override_Metal__METAL__0[] = {
+	gsSPDisplayList(mat_sans_cap_wing_Wing_Tip),
+	gsSPDisplayList(sans_cap_wing_Wings_mesh_layer_4_tri_0),
+	gsSPDisplayList(mat_revert_sans_cap_wing_Wing_Tip),
+	gsSPDisplayList(mat_sans_cap_wing_Wing_Base),
+	gsSPDisplayList(sans_cap_wing_Wings_mesh_layer_4_tri_1),
+	gsSPDisplayList(mat_revert_sans_cap_wing_Wing_Base),
+	gsDPPipeSync(),
+	gsSPSetGeometryMode(G_LIGHTING),
+	gsSPClearGeometryMode(G_TEXTURE_GEN),
+	gsDPSetCombineLERP(0, 0, 0, SHADE, 0, 0, 0, ENVIRONMENT, 0, 0, 0, SHADE, 0, 0, 0, ENVIRONMENT),
+	gsSPTexture(65535, 65535, 0, 0, 0),
+	gsDPSetEnvColor(255, 255, 255, 255),
+	gsDPSetAlphaCompare(G_AC_NONE),
+	gsSPEndDisplayList(),
+};
+

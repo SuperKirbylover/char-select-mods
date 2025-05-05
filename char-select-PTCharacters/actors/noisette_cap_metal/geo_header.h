@@ -1,0 +1,13 @@
+extern const GeoLayout noisette_cap_metal_Metal_Cap_State_Switch_opt1[];
+extern const GeoLayout noisette_cap_metal_Metal_Cap_State_Switch_opt2[];
+extern const GeoLayout noisette_cap_metal_Metal_Cap_State_Switch_opt3[];
+extern const GeoLayout noisette_skl_cap_metal_geo[];
+extern Lights1 noisette_cap_metal_Metal_lights;
+extern u8 noisette_cap_metal_Metal_Shade_rgba16_rgba16[];
+extern u8 noisette_cap_metal_Metal_Light_rgba16_rgba16[];
+extern Vtx noisette_cap_metal_Metal_Cap_DL_mesh_layer_1_vtx_0[85];
+extern Gfx noisette_cap_metal_Metal_Cap_DL_mesh_layer_1_tri_0[];
+extern Gfx mat_noisette_cap_metal_Metal[];
+extern Gfx mat_revert_noisette_cap_metal_Metal[];
+extern Gfx noisette_cap_metal_Metal_Cap_DL_mesh_layer_1[];
+extern Gfx noisette_cap_metal_Metal_Cap_DL_mesh_layer_1_mat_override_Metal_0[];

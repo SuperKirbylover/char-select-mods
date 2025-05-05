@@ -1,0 +1,13 @@
+extern const GeoLayout noise_cap_metal_Metal_Cap_State_Switch_opt1[];
+extern const GeoLayout noise_cap_metal_Metal_Cap_State_Switch_opt2[];
+extern const GeoLayout noise_cap_metal_Metal_Cap_State_Switch_opt3[];
+extern const GeoLayout noise_skl_cap_metal_geo[];
+extern Lights1 noise_cap_metal_Metal_lights;
+extern u8 noise_cap_metal_Metal_Shade_rgba16_rgba16[];
+extern u8 noise_cap_metal_Metal_Light_rgba16_rgba16[];
+extern Vtx noise_cap_metal_Metal_Cap_DL_mesh_layer_1_vtx_0[123];
+extern Gfx noise_cap_metal_Metal_Cap_DL_mesh_layer_1_tri_0[];
+extern Gfx mat_noise_cap_metal_Metal[];
+extern Gfx mat_revert_noise_cap_metal_Metal[];
+extern Gfx noise_cap_metal_Metal_Cap_DL_mesh_layer_1[];
+extern Gfx noise_cap_metal_Metal_Cap_DL_mesh_layer_1_mat_override_Metal_0[];

@@ -1,0 +1,13 @@
+extern const GeoLayout sans_cap_metal_Metal_Cap_State_Switch_opt1[];
+extern const GeoLayout sans_cap_metal_Metal_Cap_State_Switch_opt2[];
+extern const GeoLayout sans_cap_metal_Metal_Cap_State_Switch_opt3[];
+extern const GeoLayout sans_skl_cap_metal_geo[];
+extern Lights1 sans_cap_metal_Metal__METAL__lights;
+extern u8 sans_cap_metal_Metal_Shade_rgba16_rgba16[];
+extern u8 sans_cap_metal_Metal_Light_rgba16_rgba16[];
+extern Vtx sans_cap_metal_Metal_Cap_DL_mesh_layer_1_vtx_0[154];
+extern Gfx sans_cap_metal_Metal_Cap_DL_mesh_layer_1_tri_0[];
+extern Gfx mat_sans_cap_metal_Metal__METAL_[];
+extern Gfx mat_revert_sans_cap_metal_Metal__METAL_[];
+extern Gfx sans_cap_metal_Metal_Cap_DL_mesh_layer_1[];
+extern Gfx sans_cap_metal_Metal_Cap_DL_mesh_layer_1_mat_override_Metal__METAL__0[];

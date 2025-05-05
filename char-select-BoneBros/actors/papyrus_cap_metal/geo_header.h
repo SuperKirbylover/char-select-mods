@@ -1,0 +1,13 @@
+extern const GeoLayout papyrus_cap_metal_Metal_Cap_State_Switch_opt1[];
+extern const GeoLayout papyrus_cap_metal_Metal_Cap_State_Switch_opt2[];
+extern const GeoLayout papyrus_cap_metal_Metal_Cap_State_Switch_opt3[];
+extern const GeoLayout papyrus_skl_cap_metal_geo[];
+extern Lights1 papyrus_cap_metal_Metal__METAL__lights;
+extern u8 papyrus_cap_metal_Metal_Shade_rgba16_rgba16[];
+extern u8 papyrus_cap_metal_Metal_Light_rgba16_rgba16[];
+extern Vtx papyrus_cap_metal_Metal_Cap_DL_mesh_layer_1_vtx_0[43];
+extern Gfx papyrus_cap_metal_Metal_Cap_DL_mesh_layer_1_tri_0[];
+extern Gfx mat_papyrus_cap_metal_Metal__METAL_[];
+extern Gfx mat_revert_papyrus_cap_metal_Metal__METAL_[];
+extern Gfx papyrus_cap_metal_Metal_Cap_DL_mesh_layer_1[];
+extern Gfx papyrus_cap_metal_Metal_Cap_DL_mesh_layer_1_mat_override_Metal__METAL__0[];
