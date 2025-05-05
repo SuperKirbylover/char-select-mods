@@ -31,8 +31,9 @@ This was initially made for a character pack competition, the topic being [iconi
 
 ## char-select-BlastPack
 Annie re-uses Anton's cap models here.
+Squishy6094 did the custom menu for this pack!! Special thanks to her for that.
 
-## char-select-h
+## char-select-H
 This was my first mod that I flat up didn't use any textures for the player model. Which, well, makes sense. It's just H.
 I was thinking about Saltydkdan's videos about Pokemon H... It led to me creating this. I thought it would be funny.
 
